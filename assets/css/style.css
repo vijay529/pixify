@@ -3474,7 +3474,7 @@ label {
 ----------------------------------------------------------------*/
 .cs-site_header {
   background: transparent;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0.1); */
   position: relative;
   z-index: 101;
 }
