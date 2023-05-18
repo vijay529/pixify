@@ -929,6 +929,11 @@ hr {
   color: #fff;
 }
 
+.cs-text_btn :hover{
+  color: currentColor;
+  cursor: auto;
+}
+
 .cs-text_btn svg {
   margin-left: 15px;
 }
@@ -938,7 +943,7 @@ hr {
   position: relative;
 }
 
-.cs-text_btn span::before {
+/* .cs-text_btn span::before {
   content: '';
   position: absolute;
   height: 2px;
@@ -958,14 +963,14 @@ hr {
           transition-duration: 0.6s;
   -webkit-transition-timing-function: ease-out;
           transition-timing-function: ease-out;
-}
+} */
 
-.cs-text_btn:hover span::before {
+/* .cs-text_btn:hover span::before {
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
   -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
           transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
-}
+} */
 
 .cs-text_btn.cs-type1 svg {
   margin-left: 0px;
